@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+
+}
+
+#titulo{
+    align-items: center;
+    color: white;
+    padding: 40px;
+}
+
+canvas{
+    border: 3px solid white;
+    border-radius: 12px;
+    background: #87ceeb;
+}
