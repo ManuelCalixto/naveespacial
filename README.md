@@ -36,4 +36,5 @@ Cada nivel aumenta la **dificultad**:
 ---
 
 ## 🚀 Cómo jugar
-
+1. Da click en el link:
+   https://manuelcalixto.github.io/naveespacial/
