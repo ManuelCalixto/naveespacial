@@ -1,21 +1,88 @@
-body{
+body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: #111;
-
+    height: 95vh;
+    background: #0b0a14 ;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
 }
 
-#titulo{
-    align-items: center;
-    color: white;
-    padding: 40px;
+.contenedor {
+    text-align: center;
 }
 
-canvas{
-    border: 3px solid white;
-    border-radius: 12px;
-    background: #87ceeb;
+#titulo {
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgb(18, 189, 189), 0 0 20px #0077ff, 0 0 30px #00f7ff;
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 3px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #0ff, 0 0 40px #0077ff;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#bienvenida {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#bienvenida-contenido {
+  background: linear-gradient(135deg, #1a1a1a, #222222);
+  border: 3px solid #2ddafc;
+  border-radius: 20px;
+  padding: 40px 60px;
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 0 25px #2ddafc;
+}
+
+#bienvenida-contenido h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+  text-shadow: 2px 2px #2ddafc;
+}
+
+#bienvenida-contenido p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#bienvenida-contenido h5{
+    font-size: 16px;
+    margin-top: 20px;
+    color: #aaa;
+}
+
+
+#btn-empezar {
+  padding: 12px 30px;
+  font-size: 20px;
+  background-color: #2ddafc;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#btn-empezar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #2ddafc;
 }
