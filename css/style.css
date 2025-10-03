@@ -81,6 +81,13 @@ canvas {
     color: #1b78f1;
 }
 
+#bienvenida-contenido h7 {
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
 
 #btn-empezar {
     padding: 12px 30px;
