@@ -152,10 +152,10 @@ function dibujarWin() {
     ctx.fillStyle = "rgba(0,0,0,0.7)";
     ctx.fillRect(0, 0, 800, 480);
     ctx.fillStyle = "lime";
-    ctx.font = "45px Arial Black";
-    ctx.fillText("🎊 GANASTE! 🎊", 250, 200);
+    ctx.font = "41px Arial Black";
+    ctx.fillText("GANASTE! 🎊", 250, 200);
     ctx.fillStyle = "white";
-    ctx.font = "25px Arial";
+    ctx.font = "26px Arial";
     ctx.fillText("Presiona ENTER para volver al menú", 180, 300);
 }
 function dibujarPausa() {
@@ -198,6 +198,7 @@ function update() {
 
     // Creo los enemigos segun las vidas sube la dificultad
     if (vidas >= 0 && vidas < 5) {
+       
         if (Math.random() < 0.002) {
             crearEnemigo();
         }
@@ -269,8 +270,8 @@ function update() {
             vidas++;
             amigos.splice(i, 1);
             //reinicio el sonido y lo reproduzco
-            sonidoHamburguesa.currentTime = 0; 
-            sonidoHamburguesa.play();          
+            sonidoHamburguesa.currentTime = 0;
+            sonidoHamburguesa.play();
         }
     });
     // Colisiones
