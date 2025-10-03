@@ -74,6 +74,13 @@ canvas {
     color: #aaa;
 }
 
+#bienvenida-contenido h6 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #1b78f1;
+}
+
 
 #btn-empezar {
     padding: 12px 30px;
